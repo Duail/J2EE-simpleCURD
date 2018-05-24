@@ -20,7 +20,7 @@ public class UserDao {
 	
 	public Connection getconnection() throws SQLException {
 		return DriverManager.getConnection("jdbc:mysql://localhost:3306/test?"
-				+ "characterEncoding=utf-8&useSSL=true","root","dc13526005039");
+				+ "characterEncoding=utf-8&useSSL=true","root","123");
 	}
 	
 	public int getTotal() {
