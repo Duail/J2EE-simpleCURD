@@ -22,7 +22,6 @@ public class ListServlet extends HttpServlet {
 		try {
 			start = Integer.parseInt(request.getParameter("start"));
 		} catch (Exception e) {
-		
 		}
 		int next = start + count;
 		int pre = start - count;
